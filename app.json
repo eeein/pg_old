@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Photogrill",
+    "slug": "Photogrill",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "photogrill",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to scan barcodes on event tickets.",
+        "NSPhotoLibraryAddUsageDescription": "This app uses photo library to save edited photo."
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
