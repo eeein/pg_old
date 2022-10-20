@@ -46,7 +46,7 @@
     "react-native-is-iphonex": "^1.0.1",
     "react-native-navigation": "^2.27.9",
     "react-native-progress": "^3.6.0",
-    "react-native-reanimated": "~1.2.0",
+    "react-native-reanimated": "~2.10.0",
     "react-native-scrollable-tab-view": "^0.10.0",
     "react-native-smart-page": "^1.0.3",
     "react-native-svg": "^9.9.5",
